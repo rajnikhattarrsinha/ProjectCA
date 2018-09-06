@@ -17,7 +17,6 @@
         <mongo-java-driver>3.6.3</mongo-java-driver>
         <gson>2.8.2</gson>
     </properties>
-
     <dependencies>
         <dependency>
             <groupId>net.serenity-bdd</groupId>
@@ -88,6 +87,13 @@
             <artifactId>eyes-selenium-java3</artifactId>
             <version>3.32.1</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.codoid.products/fillo -->
+        <dependency>
+            <groupId>com.codoid.products</groupId>
+            <artifactId>fillo</artifactId>
+            <version>1.18</version>
+        </dependency>
+
     </dependencies>
     <build>
         <plugins>
